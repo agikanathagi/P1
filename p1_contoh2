@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    char name[10];
+    cout << "Ketikkan nama Anda:";
+    cin >> name; //membaca inputan dari keyboard
+    cout << "\nSelamat Datang " << name << " di mata kuliah AP1." <<endl;
+    return 0;
+}
