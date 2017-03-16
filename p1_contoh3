@@ -1,0 +1,45 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char kar;
+    kar='A';
+
+    int bil;
+    bil=200914;
+
+    long jum_penduduk;
+    jum_penduduk = 123456789;
+
+    float bil_float;
+    bil_float = 1.23e2;
+
+    float bil_float2;
+    double bil_double;
+    bil_float2 = 56.0123456789;
+    bil_double = 56.0123456789;
+
+    cout<<"isi kar          = "<<kar<<"\n";
+    kar=2;
+
+    cout<<"isi kar          = "<<kar<<"\n";
+    cout<<"isi bil          = "<<bil<<"\n";
+
+    bil = -20;
+
+    cout<<"isi bil          = "<<bil<<"\n";
+
+    bil = -20;
+
+    cout<<"isi bil          = "<<bil<<"\n";
+
+    cout<<"isi jum_penduduk = "<<jum_penduduk<<"\n";
+    cout<<"isi bil_float    = "<<bil_float2<<"\n";
+
+    cout<<"isi_float        = "<<bil_float2<<"\n";
+    cout<<"isi_double       = "<<bil_double<<"\n";
+
+    return 0;
+}
