@@ -1,0 +1,53 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main()
+{
+    char Nama[50];
+    int NIM;
+    int TglLahir;
+    char Prodi [50];
+    char Alamat [50];
+    long NoTelp;
+
+
+    cout << "Siapa nama Anda? ";
+    cin >> Nama; //membaca inputan dari keyboard
+
+
+    cout << "Berapa NIM Anda? ";
+    cin >> NIM;
+
+
+    cout << "Kapan Anda lahir? ";
+    cin >> TglLahir;
+
+
+    cout << "Apa prodi Anda? ";
+    cin >> Prodi;
+
+
+    cout << "Dimana alamat Anda? ";
+    cin >> Alamat;
+
+
+    cout << "Berapa nomer telepon Anda? ";
+    cin >> NoTelp;
+    system("cls");
+
+
+    cout << endl;
+
+    cout << "Nama : "<<Nama<<endl;
+    cout << "NIM : "<<NIM<<endl;
+    cout << "TglLahir : "<<TglLahir<<endl;
+    cout << "Prodi : "<<Prodi<<endl;
+    cout << "Alamat : "<<Alamat<<endl;
+    cout << "NoTelp : "<<NoTelp<<endl;
+
+    cout << "\nSelamat Datang coks " << Nama << " di mata kuliah AP1." <<endl;
+
+
+    return 0;
+}
+
